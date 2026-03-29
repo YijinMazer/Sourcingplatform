@@ -1,310 +1,294 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
-<html>
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-  <meta http-equiv="Content-Style-Type" content="text/css">
-  <title></title>
-  <meta name="Generator" content="Cocoa HTML Writer">
-  <meta name="CocoaVersion" content="2575.7">
-  <style type="text/css">
-    p.p1 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica}
-    p.p2 {margin: 0.0px 0.0px 0.0px 0.0px; font: 12.0px Helvetica; min-height: 14.0px}
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mazer Tech | Intelligent Supply Chain for Emerging Markets</title>
+    <!-- Tailwind CSS for styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Lucide Icons for premium iconography -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <!-- Google Fonts: Inter -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            50: '#eff6ff',
+                            100: '#dbeafe',
+                            500: '#3b82f6',
+                            600: '#2563eb',
+                            900: '#1e3a8a',
+                            950: '#0f172a', // Deep tech background
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        /* Custom subtle grid background for the hero section to look "techy" */
+        .bg-grid-pattern {
+            background-size: 40px 40px;
+            background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),
+                              linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);
+        }
+    </style>
 </head>
-<body>
-<p class="p1">&lt;!DOCTYPE html&gt;</p>
-<p class="p1">&lt;html lang="en" class="scroll-smooth"&gt;</p>
-<p class="p1">&lt;head&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta charset="UTF-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;title&gt;Mazer Tech | Intelligent Supply Chain for Emerging Markets&lt;/title&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Tailwind CSS for styling --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://cdn.tailwindcss.com"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Lucide Icons for premium iconography --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script src="https://unpkg.com/lucide@latest"&gt;&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Google Fonts: Inter --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap" rel="stylesheet"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>tailwind.config = {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>theme: {</p>
-<p class="p1"><span class="Apple-converted-space">                </span>extend: {</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>fontFamily: {</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>sans: ['Inter', 'sans-serif'],</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>},</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>colors: {</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>brand: {</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>50: '#eff6ff',</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>100: '#dbeafe',</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>500: '#3b82f6',</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>600: '#2563eb',</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>900: '#1e3a8a',</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>950: '#0f172a', // Deep tech background</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>}</p>
-<p class="p1"><span class="Apple-converted-space">                </span>}</p>
-<p class="p1"><span class="Apple-converted-space">            </span>}</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;style&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>/* Custom subtle grid background for the hero section to look "techy" */</p>
-<p class="p1"><span class="Apple-converted-space">        </span>.bg-grid-pattern {</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-size: 40px 40px;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>background-image: linear-gradient(to right, rgba(255, 255, 255, 0.05) 1px, transparent 1px),</p>
-<p class="p1"><span class="Apple-converted-space">                              </span>linear-gradient(to bottom, rgba(255, 255, 255, 0.05) 1px, transparent 1px);</p>
-<p class="p1"><span class="Apple-converted-space">        </span>}</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/style&gt;</p>
-<p class="p1">&lt;/head&gt;</p>
-<p class="p1">&lt;body class="font-sans text-gray-800 antialiased bg-gray-50"&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Navigation --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;nav class="fixed w-full bg-white/90 backdrop-blur-md z-50 border-b border-gray-100"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex justify-between items-center h-20"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Logo --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="flex items-center gap-2"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;i data-lucide="cpu" class="text-white w-5 h-5"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="font-bold text-xl tracking-tight text-gray-900"&gt;Mazer Tech&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Links (Desktop) --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="hidden md:flex items-center space-x-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#problem" class="text-sm font-medium text-gray-600 hover:text-brand-600 transition-colors"&gt;The Problem&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#solution" class="text-sm font-medium text-gray-600 hover:text-brand-600 transition-colors"&gt;Our Approach&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#markets" class="text-sm font-medium text-gray-600 hover:text-brand-600 transition-colors"&gt;Markets&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;a href="#contact" class="bg-gray-900 hover:bg-brand-600 text-white px-5 py-2.5 rounded-full text-sm font-medium transition-all shadow-sm"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>Book a Sourcing Audit</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/nav&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Hero Section --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 bg-brand-950 text-white overflow-hidden"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="absolute inset-0 bg-grid-pattern opacity-30"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="absolute inset-0 bg-gradient-to-t from-brand-950 via-transparent to-transparent"&gt;&lt;/div&gt;</p>
-<p class="p2"><span class="Apple-converted-space">        </span></p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-sm font-medium text-blue-200 mb-8 backdrop-blur-sm"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="w-2 h-2 rounded-full bg-blue-400 animate-pulse"&gt;&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>Next-Gen Global Trade Operating System</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-6 leading-tight"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>De-Risk Your Global &lt;br class="hidden md:block" /&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400"&gt;Supply Chain with AI Intelligence.&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/h1&gt;</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="mt-4 text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto font-light mb-10"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>We connect emerging markets with China’s hidden, high-quality manufacturers. No middlemen, no language barriers, zero trust deficit.</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
-<p class="p2"><span class="Apple-converted-space">            </span></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex flex-col sm:flex-row justify-center gap-4"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#contact" class="bg-brand-600 hover:bg-brand-500 text-white px-8 py-4 rounded-full text-lg font-medium transition-all shadow-lg shadow-brand-500/30 flex items-center justify-center gap-2"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>Book a Free Consultation</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;i data-lucide="arrow-right" class="w-5 h-5"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#solution" class="bg-white/10 hover:bg-white/20 text-white border border-white/20 px-8 py-4 rounded-full text-lg font-medium transition-all backdrop-blur-sm flex items-center justify-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>Learn How It Works</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- The Problem Section --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="problem" class="py-20 bg-white"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="text-center max-w-3xl mx-auto mb-16"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;h2 class="text-3xl font-bold text-gray-900 mb-4"&gt;Traditional Sourcing is Broken.&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="text-lg text-gray-600 leading-relaxed"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>Buying industrial and agricultural equipment across borders is plagued by opaque pricing, unreliable middlemen, and severe quality control risks. You shouldn't have to gamble your capital on unverified suppliers.</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid md:grid-cols-3 gap-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Problem 1 --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="p-6 bg-red-50 rounded-2xl border border-red-100"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center mb-4 text-red-600"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;i data-lucide="search-x" class="w-6 h-6"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-xl font-bold text-gray-900 mb-2"&gt;Information Asymmetry&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-gray-600 text-sm"&gt;The best source factories in China don't speak English and aren't on Alibaba. You are left dealing with trading companies that inflate prices.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Problem 2 --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="p-6 bg-orange-50 rounded-2xl border border-orange-100"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center mb-4 text-orange-600"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;i data-lucide="shield-alert" class="w-6 h-6"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-xl font-bold text-gray-900 mb-2"&gt;Quality Control Risks&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-gray-600 text-sm"&gt;Receiving defective machinery thousands of miles away can bankrupt a project. Returning heavy equipment is logistically impossible.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Problem 3 --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="p-6 bg-yellow-50 rounded-2xl border border-yellow-100"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center mb-4 text-yellow-600"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;i data-lucide="languages" class="w-6 h-6"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-xl font-bold text-gray-900 mb-2"&gt;Technical Miscommunication&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-gray-600 text-sm"&gt;Complex engineering specs get lost in translation, leading to machines that don't fit your local voltage, climate, or raw materials.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- The Solution Section --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="solution" class="py-24 bg-gray-50"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="mb-16 md:flex md:justify-between md:items-end"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="max-w-2xl"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="text-brand-600 font-semibold tracking-wide uppercase text-sm mb-2"&gt;Our Technology&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h2 class="text-3xl md:text-4xl font-bold text-gray-900"&gt;The Mazer Tech Advantage&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;p class="mt-4 md:mt-0 text-gray-600 max-w-md"&gt;We replace guesswork with data. Our intelligence layer maps China's deep manufacturing ecosystem to find your perfect partner.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="grid md:grid-cols-3 gap-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Feature 1 --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-lg transition-all hover:-translate-y-1"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-12 h-12 bg-brand-100 rounded-xl flex items-center justify-center mb-6 text-brand-600"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;i data-lucide="database" class="w-6 h-6"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-xl font-bold text-gray-900 mb-3"&gt;Algorithmic Vetting&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-gray-600 leading-relaxed"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>We analyze domestic registry data, court records, and local trade footprints to identify zero-risk factory partners. We filter out the noise before you even see a quote.</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Feature 2 --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-lg transition-all hover:-translate-y-1"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-12 h-12 bg-brand-100 rounded-xl flex items-center justify-center mb-6 text-brand-600"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;i data-lucide="network" class="w-6 h-6"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-xl font-bold text-gray-900 mb-3"&gt;Semantic Matching&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-gray-600 leading-relaxed"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>Tell us your complex machinery needs. Our tech translates and matches your exact specifications (capacity, budget, environment) with the precise production lines capable of delivering.</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Feature 3 --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-lg transition-all hover:-translate-y-1"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="w-12 h-12 bg-brand-100 rounded-xl flex items-center justify-center mb-6 text-brand-600"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;i data-lucide="shield-check" class="w-6 h-6"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;h3 class="text-xl font-bold text-gray-900 mb-3"&gt;End-to-End QC &amp; Localization&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;p class="text-gray-600 leading-relaxed"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>From physical factory audits to using AI for cross-lingual technical translation of manuals and maintenance guides, we protect your investment until it arrives at your port.</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Markets Section --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="markets" class="py-20 bg-white"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="bg-brand-900 rounded-3xl overflow-hidden shadow-2xl"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;div class="grid md:grid-cols-2"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="p-12 md:p-16 flex flex-col justify-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;h2 class="text-3xl font-bold text-white mb-6"&gt;Empowering Growth in Emerging Markets&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;p class="text-brand-100 mb-8 text-lg"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>We specialize in sourcing robust, high-ROI equipment for businesses in Africa, Latin America, and Southeast Asia. We focus on categories that build local infrastructure and create wealth.</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;ul class="space-y-4"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center text-white"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                                </span>&lt;i data-lucide="sun" class="w-5 h-5 mr-3 text-emerald-400"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                                </span>Solar &amp; Off-Grid Energy Systems</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center text-white"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                                </span>&lt;i data-lucide="tractor" class="w-5 h-5 mr-3 text-emerald-400"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                                </span>Agricultural &amp; Processing Machinery</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center text-white"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                                </span>&lt;i data-lucide="factory" class="w-5 h-5 mr-3 text-emerald-400"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                                </span>Light Industrial &amp; Construction Equipment</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>&lt;li class="flex items-center text-white"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                                </span>&lt;i data-lucide="truck" class="w-5 h-5 mr-3 text-emerald-400"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                                </span>E-mobility &amp; Commercial Logistics (EV Trikes)</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/li&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/ul&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;div class="bg-brand-950 p-12 flex items-center justify-center border-l border-white/10 relative overflow-hidden"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;!-- Abstract Tech Graphic representing Global Trade --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="absolute inset-0 bg-grid-pattern opacity-20"&gt;&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;div class="relative z-10 text-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>&lt;i data-lucide="globe-2" class="w-32 h-32 text-brand-500 mx-auto opacity-50 mb-4 animate-[spin_60s_linear_infinite]"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>&lt;div class="text-white font-mono text-sm opacity-50"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                                </span>[ DATA NODE CONNECTED ]&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                                </span>ROUTE: SHENZHEN -&gt; NAIROBI&lt;br&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                                </span>MATCH RATE: 99.4%</p>
-<p class="p1"><span class="Apple-converted-space">                            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Founder/Trust Section --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section class="py-20 bg-gray-50"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-6 flex items-center justify-center overflow-hidden border-4 border-white shadow-md"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;!-- Placeholder for Founder Image --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;i data-lucide="user" class="w-10 h-10 text-gray-400"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-2xl font-bold text-gray-900 mb-2"&gt;Backed by Global Perspectives.&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h3 class="text-xl text-brand-600 font-medium mb-6"&gt;Rooted in China's Supply Chain.&lt;/h3&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-gray-600 text-lg leading-relaxed mb-8"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>Founded in London and built by an LSE (London School of Economics and Political Science) alumnus, Mazer Tech bridges the gap between top-tier global business networks and China's deep manufacturing ecosystem. We speak your language, understand your market's demands, and know exactly how to navigate the factory floors in China.</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex items-center justify-center gap-2 text-gray-500 text-sm font-medium"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;i data-lucide="map-pin" class="w-4 h-4"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>London, UK | Serving Global Markets</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- CTA Section --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;section id="contact" class="py-24 bg-white border-t border-gray-100"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;h2 class="text-4xl font-bold text-gray-900 mb-6"&gt;Ready to upgrade your procurement strategy?&lt;/h2&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="text-xl text-gray-600 mb-10"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>Let's discuss your current sourcing bottlenecks and how our intelligence network can cut costs and eliminate risks for your next major project.</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;a href="lena@mazertech.co.uk" class="inline-flex items-center justify-center px-8 py-4 text-lg font-medium rounded-full text-white bg-gray-900 hover:bg-brand-600 shadow-xl transition-all hover:scale-105"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;i data-lucide="calendar" class="w-5 h-5 mr-2"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>Schedule a Coffee Chat (London / Zoom)</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;p class="mt-4 text-sm text-gray-400"&gt;No commitment. Just a conversation about your supply chain.&lt;/p&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/section&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Footer --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;footer class="bg-gray-50 py-12 border-t border-gray-200"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="flex items-center gap-2 mb-4 md:mb-0"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;i data-lucide="cpu" class="text-brand-600 w-5 h-5"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;span class="font-bold text-lg text-gray-900"&gt;Mazer Tech&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="text-sm text-gray-500"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&amp;copy; 2026 Mazer Tech Ltd. All rights reserved.</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;div class="mt-4 md:mt-0 flex space-x-6"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#" class="text-gray-400 hover:text-brand-600"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="sr-only"&gt;LinkedIn&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;i data-lucide="linkedin" class="w-5 h-5"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;a href="#" class="text-gray-400 hover:text-brand-600"&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;span class="sr-only"&gt;Email&lt;/span&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                    </span>&lt;i data-lucide="mail" class="w-5 h-5"&gt;&lt;/i&gt;</p>
-<p class="p1"><span class="Apple-converted-space">                </span>&lt;/a&gt;</p>
-<p class="p1"><span class="Apple-converted-space">            </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>&lt;/div&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/footer&gt;</p>
-<p class="p2"><br></p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;!-- Initialize Icons --&gt;</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;script&gt;</p>
-<p class="p1"><span class="Apple-converted-space">        </span>lucide.createIcons();</p>
-<p class="p1"><span class="Apple-converted-space">    </span>&lt;/script&gt;</p>
-<p class="p1">&lt;/body&gt;</p>
-<p class="p1">&lt;/html&gt;</p>
+<body class="font-sans text-gray-800 antialiased bg-gray-50">
+
+    <!-- Navigation -->
+    <nav class="fixed w-full bg-white/90 backdrop-blur-md z-50 border-b border-gray-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex items-center gap-2">
+                    <div class="w-8 h-8 bg-brand-600 rounded-lg flex items-center justify-center">
+                        <i data-lucide="cpu" class="text-white w-5 h-5"></i>
+                    </div>
+                    <span class="font-bold text-xl tracking-tight text-gray-900">Mazer Tech</span>
+                </div>
+                <!-- Links (Desktop) -->
+                <div class="hidden md:flex items-center space-x-8">
+                    <a href="#problem" class="text-sm font-medium text-gray-600 hover:text-brand-600 transition-colors">The Problem</a>
+                    <a href="#solution" class="text-sm font-medium text-gray-600 hover:text-brand-600 transition-colors">Our Approach</a>
+                    <a href="#markets" class="text-sm font-medium text-gray-600 hover:text-brand-600 transition-colors">Markets</a>
+                    <a href="#contact" class="bg-gray-900 hover:bg-brand-600 text-white px-5 py-2.5 rounded-full text-sm font-medium transition-all shadow-sm">
+                        Book a Sourcing Audit
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative pt-32 pb-20 lg:pt-48 lg:pb-32 bg-brand-950 text-white overflow-hidden">
+        <div class="absolute inset-0 bg-grid-pattern opacity-30"></div>
+        <div class="absolute inset-0 bg-gradient-to-t from-brand-950 via-transparent to-transparent"></div>
+        
+        <div class="relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-white/10 border border-white/20 text-sm font-medium text-blue-200 mb-8 backdrop-blur-sm">
+                <span class="w-2 h-2 rounded-full bg-blue-400 animate-pulse"></span>
+                Next-Gen Global Trade Operating System
+            </div>
+            
+            <h1 class="text-4xl md:text-6xl font-bold tracking-tight mb-6 leading-tight">
+                De-Risk Your Global <br class="hidden md:block" />
+                <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-emerald-400">Supply Chain with AI Intelligence.</span>
+            </h1>
+            
+            <p class="mt-4 text-xl md:text-2xl text-gray-300 max-w-3xl mx-auto font-light mb-10">
+                We connect emerging markets with China’s hidden, high-quality manufacturers. No middlemen, no language barriers, zero trust deficit.
+            </p>
+            
+            <div class="flex flex-col sm:flex-row justify-center gap-4">
+                <a href="#contact" class="bg-brand-600 hover:bg-brand-500 text-white px-8 py-4 rounded-full text-lg font-medium transition-all shadow-lg shadow-brand-500/30 flex items-center justify-center gap-2">
+                    Book a Free Consultation
+                    <i data-lucide="arrow-right" class="w-5 h-5"></i>
+                </a>
+                <a href="#solution" class="bg-white/10 hover:bg-white/20 text-white border border-white/20 px-8 py-4 rounded-full text-lg font-medium transition-all backdrop-blur-sm flex items-center justify-center">
+                    Learn How It Works
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Problem Section -->
+    <section id="problem" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-16">
+                <h2 class="text-3xl font-bold text-gray-900 mb-4">Traditional Sourcing is Broken.</h2>
+                <p class="text-lg text-gray-600 leading-relaxed">
+                    Buying industrial and agricultural equipment across borders is plagued by opaque pricing, unreliable middlemen, and severe quality control risks. You shouldn't have to gamble your capital on unverified suppliers.
+                </p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Problem 1 -->
+                <div class="p-6 bg-red-50 rounded-2xl border border-red-100">
+                    <div class="w-12 h-12 bg-red-100 rounded-xl flex items-center justify-center mb-4 text-red-600">
+                        <i data-lucide="search-x" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Information Asymmetry</h3>
+                    <p class="text-gray-600 text-sm">The best source factories in China don't speak English and aren't on Alibaba. You are left dealing with trading companies that inflate prices.</p>
+                </div>
+                <!-- Problem 2 -->
+                <div class="p-6 bg-orange-50 rounded-2xl border border-orange-100">
+                    <div class="w-12 h-12 bg-orange-100 rounded-xl flex items-center justify-center mb-4 text-orange-600">
+                        <i data-lucide="shield-alert" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Quality Control Risks</h3>
+                    <p class="text-gray-600 text-sm">Receiving defective machinery thousands of miles away can bankrupt a project. Returning heavy equipment is logistically impossible.</p>
+                </div>
+                <!-- Problem 3 -->
+                <div class="p-6 bg-yellow-50 rounded-2xl border border-yellow-100">
+                    <div class="w-12 h-12 bg-yellow-100 rounded-xl flex items-center justify-center mb-4 text-yellow-600">
+                        <i data-lucide="languages" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-2">Technical Miscommunication</h3>
+                    <p class="text-gray-600 text-sm">Complex engineering specs get lost in translation, leading to machines that don't fit your local voltage, climate, or raw materials.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- The Solution Section -->
+    <section id="solution" class="py-24 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="mb-16 md:flex md:justify-between md:items-end">
+                <div class="max-w-2xl">
+                    <div class="text-brand-600 font-semibold tracking-wide uppercase text-sm mb-2">Our Technology</div>
+                    <h2 class="text-3xl md:text-4xl font-bold text-gray-900">The Mazer Tech Advantage</h2>
+                </div>
+                <p class="mt-4 md:mt-0 text-gray-600 max-w-md">We replace guesswork with data. Our intelligence layer maps China's deep manufacturing ecosystem to find your perfect partner.</p>
+            </div>
+
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Feature 1 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-lg transition-all hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-brand-100 rounded-xl flex items-center justify-center mb-6 text-brand-600">
+                        <i data-lucide="database" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Algorithmic Vetting</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        We analyze domestic registry data, court records, and local trade footprints to identify zero-risk factory partners. We filter out the noise before you even see a quote.
+                    </p>
+                </div>
+                <!-- Feature 2 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-lg transition-all hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-brand-100 rounded-xl flex items-center justify-center mb-6 text-brand-600">
+                        <i data-lucide="network" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">Semantic Matching</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        Tell us your complex machinery needs. Our tech translates and matches your exact specifications (capacity, budget, environment) with the precise production lines capable of delivering.
+                    </p>
+                </div>
+                <!-- Feature 3 -->
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-gray-100 hover:shadow-lg transition-all hover:-translate-y-1">
+                    <div class="w-12 h-12 bg-brand-100 rounded-xl flex items-center justify-center mb-6 text-brand-600">
+                        <i data-lucide="shield-check" class="w-6 h-6"></i>
+                    </div>
+                    <h3 class="text-xl font-bold text-gray-900 mb-3">End-to-End QC & Localization</h3>
+                    <p class="text-gray-600 leading-relaxed">
+                        From physical factory audits to using AI for cross-lingual technical translation of manuals and maintenance guides, we protect your investment until it arrives at your port.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Markets Section -->
+    <section id="markets" class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-brand-900 rounded-3xl overflow-hidden shadow-2xl">
+                <div class="grid md:grid-cols-2">
+                    <div class="p-12 md:p-16 flex flex-col justify-center">
+                        <h2 class="text-3xl font-bold text-white mb-6">Empowering Growth in Emerging Markets</h2>
+                        <p class="text-brand-100 mb-8 text-lg">
+                            We specialize in sourcing robust, high-ROI equipment for businesses in Africa, Latin America, and Southeast Asia. We focus on categories that build local infrastructure and create wealth.
+                        </p>
+                        <ul class="space-y-4">
+                            <li class="flex items-center text-white">
+                                <i data-lucide="sun" class="w-5 h-5 mr-3 text-emerald-400"></i>
+                                Solar & Off-Grid Energy Systems
+                            </li>
+                            <li class="flex items-center text-white">
+                                <i data-lucide="tractor" class="w-5 h-5 mr-3 text-emerald-400"></i>
+                                Agricultural & Processing Machinery
+                            </li>
+                            <li class="flex items-center text-white">
+                                <i data-lucide="factory" class="w-5 h-5 mr-3 text-emerald-400"></i>
+                                Light Industrial & Construction Equipment
+                            </li>
+                            <li class="flex items-center text-white">
+                                <i data-lucide="truck" class="w-5 h-5 mr-3 text-emerald-400"></i>
+                                E-mobility & Commercial Logistics (EV Trikes)
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="bg-brand-950 p-12 flex items-center justify-center border-l border-white/10 relative overflow-hidden">
+                        <!-- Abstract Tech Graphic representing Global Trade -->
+                        <div class="absolute inset-0 bg-grid-pattern opacity-20"></div>
+                        <div class="relative z-10 text-center">
+                            <i data-lucide="globe-2" class="w-32 h-32 text-brand-500 mx-auto opacity-50 mb-4 animate-[spin_60s_linear_infinite]"></i>
+                            <div class="text-white font-mono text-sm opacity-50">
+                                [ DATA NODE CONNECTED ]<br>
+                                ROUTE: SHENZHEN -> NAIROBI<br>
+                                MATCH RATE: 99.4%
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Founder/Trust Section -->
+    <section class="py-20 bg-gray-50">
+        <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <div class="w-24 h-24 bg-gray-200 rounded-full mx-auto mb-6 flex items-center justify-center overflow-hidden border-4 border-white shadow-md">
+                <!-- Placeholder for Founder Image -->
+                <i data-lucide="user" class="w-10 h-10 text-gray-400"></i>
+            </div>
+            <h2 class="text-2xl font-bold text-gray-900 mb-2">Backed by Global Perspectives.</h2>
+            <h3 class="text-xl text-brand-600 font-medium mb-6">Rooted in China's Supply Chain.</h3>
+            <p class="text-gray-600 text-lg leading-relaxed mb-8">
+                Founded in London and built by an LSE (London School of Economics and Political Science) alumnus, Mazer Tech bridges the gap between top-tier global business networks and China's deep manufacturing ecosystem. We speak your language, understand your market's demands, and know exactly how to navigate the factory floors in China.
+            </p>
+            <div class="flex items-center justify-center gap-2 text-gray-500 text-sm font-medium">
+                <i data-lucide="map-pin" class="w-4 h-4"></i>
+                London, UK | Serving Global Markets
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section id="contact" class="py-24 bg-white border-t border-gray-100">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h2 class="text-4xl font-bold text-gray-900 mb-6">Ready to upgrade your procurement strategy?</h2>
+            <p class="text-xl text-gray-600 mb-10">
+                Let's discuss your current sourcing bottlenecks and how our intelligence network can cut costs and eliminate risks for your next major project.
+            </p>
+            <a href="lena@mazertech.co.uk" class="inline-flex items-center justify-center px-8 py-4 text-lg font-medium rounded-full text-white bg-gray-900 hover:bg-brand-600 shadow-xl transition-all hover:scale-105">
+                <i data-lucide="calendar" class="w-5 h-5 mr-2"></i>
+                Schedule a Coffee Chat (London / Zoom)
+            </a>
+            <p class="mt-4 text-sm text-gray-400">No commitment. Just a conversation about your supply chain.</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-50 py-12 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col md:flex-row justify-between items-center">
+            <div class="flex items-center gap-2 mb-4 md:mb-0">
+                <i data-lucide="cpu" class="text-brand-600 w-5 h-5"></i>
+                <span class="font-bold text-lg text-gray-900">Mazer Tech</span>
+            </div>
+            <div class="text-sm text-gray-500">
+                &copy; 2026 Mazer Tech Ltd. All rights reserved.
+            </div>
+            <div class="mt-4 md:mt-0 flex space-x-6">
+                <a href="#" class="text-gray-400 hover:text-brand-600">
+                    <span class="sr-only">LinkedIn</span>
+                    <i data-lucide="linkedin" class="w-5 h-5"></i>
+                </a>
+                <a href="#" class="text-gray-400 hover:text-brand-600">
+                    <span class="sr-only">Email</span>
+                    <i data-lucide="mail" class="w-5 h-5"></i>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Initialize Icons -->
+    <script>
+        lucide.createIcons();
+    </script>
 </body>
 </html>
